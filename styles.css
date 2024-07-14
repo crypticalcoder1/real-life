@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+#films {
+    list-style-type: none;
+    padding: 0;
+}
+
+.film.item {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.film.item:hover {
+    background-color: #eaeaea;
+}
+
+.film.item.sold-out {
+    opacity: 0.6;
+}
+
+main {
+    flex: 2;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#movie-poster {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+#buy-ticket-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buy-ticket-btn:hover {
+    background-color: #218838;
+}
+
+#buy-ticket-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

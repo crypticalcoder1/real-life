@@ -1,0 +1,57 @@
+{
+    "films": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "poster": "https://example.com/posters/inception.jpg",
+        "runtime": 148,
+        "showtime": "2023-07-14T20:00:00Z",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "capacity": 100,
+        "tickets_sold": 75
+      },
+      {
+        "id": 2,
+        "title": "Interstellar",
+        "poster": "https://example.com/posters/interstellar.jpg",
+        "runtime": 169,
+        "showtime": "2023-07-15T18:00:00Z",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "capacity": 100,
+        "tickets_sold": 100
+      },
+      {
+        "id": 3,
+        "title": "The Matrix",
+        "poster": "https://example.com/posters/the-matrix.jpg",
+        "runtime": 136,
+        "showtime": "2023-07-16T21:00:00Z",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "capacity": 100,
+        "tickets_sold": 50
+      },
+      {
+        "id": 4,
+        "title": "The Dark Knight",
+        "poster": "https://example.com/posters/the-dark-knight.jpg",
+        "runtime": 152,
+        "showtime": "2023-07-17T19:00:00Z",
+        "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "capacity": 100,
+        "tickets_sold": 85
+      },
+      {
+        "id": 5,
+        "title": "Fight Club",
+        "poster": "https://example.com/posters/fight-club.jpg",
+        "runtime": 139,
+        "showtime": "2023-07-18T20:30:00Z",
+        "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker.",
+        "capacity": 100,
+        "tickets_sold": 40
+      }
+    ]
+  }
+  
+      
+  
